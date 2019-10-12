@@ -1,5 +1,36 @@
 #The best environmental idea ever
 
 username = input("What is your name")
+#The best environmental idea ever
+import time
+username = input("What is your name: ")
 
+play = input("Do you wish to give your soul to Duo? Enter Y or N: ")
+
+ a ="Y"
+
+while play = "Y":
+    if a == "N":
+        print("You failed once. Don't let it happen again.\n")
+    choiceTime = float(input("How often should Duo remind you (in minutes)? Enter: "))
+
+    instructions = "Look around you. Do you see any trash or litter? If so: pick it up\nYou have one minute. Waste no time."
+
+    deathMessage = "You have failed Duo and you have failed the world. Think about this the next time you play."
+
+
+    while a=="Y":
+        print(instructions)
+        #time.sleep(60)
+        exam = input("\nDid you pick up trash? Enter Y for yes or N for no: ")
+        if exam == "y":
+            exam = "Y"
+        elif exam == "n":
+            exam = "N"
+        else:
+            print("You fool. You thought you could get away with this? OMAE WA MOU SHINDERU.")
+            print(deathMessage)
+            a = "N"
+            play = input("Do you wish to give your soul to Duo? Enter Y or N: ")
+            
 choiceTime = float("How often should Duo remind you? Enter in minutes: ")
