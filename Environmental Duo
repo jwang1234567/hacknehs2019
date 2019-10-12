@@ -1,0 +1,5 @@
+#The best environmental idea ever
+
+username = input("What is your name")
+
+choiceTime = float("How often should Duo remind you? Enter in minutes: ")
